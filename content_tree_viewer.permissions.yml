@@ -1,0 +1,4 @@
+administer content_tree_viewer configuration:
+  title: 'Administer content_tree_viewer configuration'
+  description: 'Optional description.'
+  restrict access: true

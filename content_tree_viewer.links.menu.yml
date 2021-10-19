@@ -1,0 +1,6 @@
+content_tree_viewer.settings_form:
+  title: Content Tree Viewer
+  description: Configure Content Tree Viewer.
+  parent: system.admin_config_system
+  route_name: content_tree_viewer.settings_form
+  weight: 10

@@ -1,0 +1,6 @@
+services:
+  content_tree_viewer.event_subscriber:
+    class: Drupal\content_tree_viewer\EventSubscriber\ContentTreeViewerSubscriber
+    arguments: ['@messenger']
+    tags:
+      - { name: event_subscriber }

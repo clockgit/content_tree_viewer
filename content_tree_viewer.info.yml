@@ -1,0 +1,8 @@
+name: Content Tree Viewer
+type: module
+description: Provides a page to display content in a tree by relationship
+package: GSA
+core: 8.x
+core_version_requirement: ^8 || ^9
+dependencies:
+  - vakata/jstree

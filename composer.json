@@ -1,0 +1,15 @@
+{
+    "name": "clockgit/content_tree_viewer",
+    "description": "Provides a page to display content in a tree by relationship",
+    "type": "drupal-module",
+    "authors": [
+        {
+            "name": "Chris Lock",
+            "email": "christopher.lock@gsa.gov"
+        }
+    ],
+    "require": {
+        "vakata/jstree": ">3.3",
+        "php": ">=8.0"
+    }
+}

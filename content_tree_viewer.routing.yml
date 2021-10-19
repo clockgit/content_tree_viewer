@@ -1,0 +1,15 @@
+content_tree_viewer.example:
+  path: '/content-tree-viewer/example'
+  defaults:
+    _title: 'Example'
+    _controller: '\Drupal\content_tree_viewer\Controller\ContentTreeViewerController::build'
+  requirements:
+    _permission: 'access content'
+
+content_tree_viewer.settings_form:
+  path: '/admin/config/system/content-tree-viewer'
+  defaults:
+    _title: 'Content Tree Viewer settings'
+    _form: 'Drupal\content_tree_viewer\Form\SettingsForm'
+  requirements:
+    _permission: 'administer content_tree_viewer configuration'
