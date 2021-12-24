@@ -1,5 +1,5 @@
 content_tree_viewer.example:
-  path: '/content-tree-viewer/example'
+  path: '/content-tree-viewer'
   defaults:
     _title: 'Example'
     _controller: '\Drupal\content_tree_viewer\Controller\ContentTreeViewerController::build'
