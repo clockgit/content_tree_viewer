@@ -11,5 +11,8 @@
     "require": {
         "vakata/jstree": ">3.3",
         "php": ">=8.0"
+    },
+    "replace": {
+        "components/jquery": ">=1.9.1"
     }
 }
